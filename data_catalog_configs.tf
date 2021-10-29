@@ -1,7 +1,8 @@
 locals {
   
   // todo replace by your own entry id
-  # parent_user_info = ""
+  base64_encoded_id    = trim(base64encode(google_bigquery_table.mock_tables["mock_column_schema.json"].id), "=")
+  parent_user_info = "projects/${var.proj_id}/locations/us/entryGroups/@bigquery/entries/${local.base64_encoded_id}"
 }
 
 resource "google_data_catalog_tag" "data_catalog_tag_data_governance_mock_column" {

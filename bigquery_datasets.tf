@@ -12,3 +12,7 @@ module "bigquery_datasets" {
     created_by    = "terraform"
   }
 }
+
+output "name" {
+  value = module.bigquery_datasets[0].bigquery_dataset.dataset_id
+}

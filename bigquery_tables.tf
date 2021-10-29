@@ -13,7 +13,7 @@ locals {
 resource "google_bigquery_table" "mock_tables" {
   for_each            = local.mock_tables
   project             = var.proj_id
-  dataset_id          = "mock"
+  dataset_id          = module.bigquery_datasets[0].bigquery_dataset.dataset_id
   table_id            = each.value.table_name
   deletion_protection = false
   labels = {
