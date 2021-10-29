@@ -1,5 +1,7 @@
 locals {
-  parent_user_info = "projects/prj-dgtl-d-dcipocp2-a8c6/locations/us/entryGroups/@bigquery/entries/cHJvamVjdHMvcHJqLWRndGwtZC1kY2lwb2NwMi1hOGM2L2RhdGFzZXRzL21vY2svdGFibGVzL2NvbHVtbg"
+  
+  // todo replace by your own entry id
+  # parent_user_info = ""
 }
 
 resource "google_data_catalog_tag" "data_catalog_tag_data_governance_mock_column" {
