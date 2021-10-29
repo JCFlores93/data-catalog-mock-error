@@ -1,0 +1,92 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "column1",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column2",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column3",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column4",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column6",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column7",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column8",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column9",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column10",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column12",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column13",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column14",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column15",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column16",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column17",
+    "type": "BOOLEAN"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "column18",
+    "type": "TIMESTAMP"
+  }
+]
